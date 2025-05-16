@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexMaster.BlueSky.Client", "HexMaster.BlueSky.Client\HexMaster.BlueSky.Client.csproj", "{4C67D1AB-9598-486B-822C-E915F4AC4F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexMaster.BlueSky.Client.Abstractions", "HexMaster.BlueSky.Client.Abstractions\HexMaster.BlueSky.Client.Abstractions.csproj", "{2F87B0BC-ED9E-4D87-AACA-7A023961CEA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexMaster.BlueSky.Client.Tests", "HexMaster.BlueSky.Client.Tests\HexMaster.BlueSky.Client.Tests.csproj", "{8E5E0172-254E-48B4-9828-02286107F833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HexMaster.BlueSky.Integration.Tests", "HexMaster.BlueSky.Integration.Tests\HexMaster.BlueSky.Integration.Tests.csproj", "{EA20E601-D625-4A80-9FF1-F5E457919020}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C67D1AB-9598-486B-822C-E915F4AC4F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C67D1AB-9598-486B-822C-E915F4AC4F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C67D1AB-9598-486B-822C-E915F4AC4F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C67D1AB-9598-486B-822C-E915F4AC4F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F87B0BC-ED9E-4D87-AACA-7A023961CEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F87B0BC-ED9E-4D87-AACA-7A023961CEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F87B0BC-ED9E-4D87-AACA-7A023961CEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F87B0BC-ED9E-4D87-AACA-7A023961CEA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E5E0172-254E-48B4-9828-02286107F833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E5E0172-254E-48B4-9828-02286107F833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E5E0172-254E-48B4-9828-02286107F833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E5E0172-254E-48B4-9828-02286107F833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA20E601-D625-4A80-9FF1-F5E457919020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA20E601-D625-4A80-9FF1-F5E457919020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA20E601-D625-4A80-9FF1-F5E457919020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA20E601-D625-4A80-9FF1-F5E457919020}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FA8742D-AF0F-4B42-AE76-C98DF348E68B}
+	EndGlobalSection
+EndGlobal
