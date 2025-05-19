@@ -2,12 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>HexMaster.BlueSky.Client.Abstractions</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Eduard Keilholz</Authors>
+    <Description>Abstractions for the BlueSky .NET client library</Description>
+    <PackageTags>bluesky;atprotocol;social;api;client</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DataTransferObjects\Feed\" />
+    <PackageReference Include="System.Text.Json" Version="9.0.5" />
   </ItemGroup>
 
 </Project>
